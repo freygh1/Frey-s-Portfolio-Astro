@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Heading: */
+
+@font-face {
+  font-family: Anthem;
+  src: url(../assets/fonts/Anthem-JlMn.ttf);
+}
+
+/* Normal Text */
+
+@font-face {
+  font-family: Satoshi Regular;
+  src: url(../assets/fonts/Satoshi-Regular.otf);
+}
+
+*{
+  user-select: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Anthem;
+}
+
+a, p, span{
+  font-family: Satoshi Regular;
+}
