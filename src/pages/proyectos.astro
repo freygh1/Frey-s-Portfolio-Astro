@@ -1,9 +1,11 @@
 ---
 import SectLight from "../layouts/Sect_Light.astro";
 import Card from "../components/Card.astro";
+// Ruta de las imagenes:
 import ProfilePhoto from "/src/img/Laptop.svg";
 import Palindrome from "/src/img/p1_palindrome_checker.png";
 import Convertidor from "/src/img/ct.png";
+import Login from "/src/img/login1.svg";
 ---
 
 <SectLight>
@@ -15,22 +17,16 @@ import Convertidor from "/src/img/ct.png";
       tagsProyecto={"Pequeña app web que sirve para comprobar si una palabra o frase es o no un palíndromo."}
       enlace={"https://palindromechecker-frey.netlify.app/"}
     />
-    <Card
-      ruta={Convertidor}
-      tituloProyecto={"Convertidor de Temperaturas"}
-      tagsProyecto="Herramienta indispensable para quienes cursen la materia de Fisica Básica"
-      enlace={""}
-    />
+    <Card ruta={Login} tituloProyecto={"Login Design"} tagsProyecto="Creé un diseño de un Login usando figma" enlace={"/src/img/login1.svg"} />
+    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
+    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
+    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
     <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
   </div>
+
   <span class="text-center text-3xl mt-12">Te gusta lo que ves? </span>
   <span class="text-center text-3xl mb-12">
     <span class="text-4xl font-bold"> > </span>
     <span class="underline underline-offset-2 decoration-blue-900"><a href="/contactame/">Contáctame</a></span> y hagamos algo nuevo!
   </span>
-  <!-- <div class="grid place-items-center md:grid-cols-2 lg:grid-cols-3 gap-10 flex-wrap">
-    <Card ruta={ProfilePhoto} tituloProyecto={"Hola"} tagsProyecto="Esta es una descripcion" enlace={""} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Hola"} tagsProyecto="Esta es una descripcion" enlace={""} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Hola"} tagsProyecto="Esta es una descripcion" enlace={""} />
-  </div> -->
 </SectLight>
