@@ -2,7 +2,7 @@
 import SectLight from "../layouts/Sect_Light.astro";
 import Card from "../components/Card.astro";
 // Ruta de las imagenes:
-import ProfilePhoto from "/src/img/Laptop.svg";
+import laptopDesign from "/src/img/Laptop.svg";
 import Palindrome from "/src/img/p1_palindrome_checker.png";
 import Convertidor from "/src/img/ct.png";
 import Login from "/src/img/login1.svg";
@@ -17,11 +17,26 @@ import Login from "/src/img/login1.svg";
       tagsProyecto={"Pequeña app web que sirve para comprobar si una palabra o frase es o no un palíndromo."}
       enlace={"https://palindromechecker-frey.netlify.app/"}
     />
-    <Card ruta={Login} tituloProyecto={"Login Design"} tagsProyecto="Creé un diseño de un Login usando figma" enlace={"/src/img/login1.svg"} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
-    <Card ruta={ProfilePhoto} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
+    <Card
+      ruta={Login}
+      tituloProyecto={"Login Design"}
+      tagsProyecto="Creé un diseño de un Login usando figma"
+      enlace={"/src/img/login1.svg"}
+    />
+    <Card
+      ruta={Convertidor}
+      tituloProyecto={"Convert Tools"}
+      tagsProyecto="una coleccion de herramientas para hacer conversiones en Física, ideal para estudiantes de bachiller o universitarios (actualmente está en beta)"
+      enlace={"https://converttools.netlify.app/"}
+    />
+    <Card
+      ruta={laptopDesign}
+      tituloProyecto={"Laptop Design"}
+      tagsProyecto="Este diseño vectorial lo hice utilizando Adobe Ilustrator"
+      enlace={"/src/img/Laptop.svg"}
+    />
+    <Card ruta={laptopDesign} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
+    <Card ruta={laptopDesign} tituloProyecto={"Aqui falta un proyecto"} tagsProyecto="Aqui falta una descripcion" enlace={""} />
   </div>
 
   <span class="text-center text-3xl mt-12">Te gusta lo que ves? </span>
